@@ -1,0 +1,31 @@
+
+
+.horizontal-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 15px;
+  }
+  
+
+  
+  .horizontal-list li:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último elemento de la lista */
+  }
+  
+
+
+
+.li{    
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+.a{
+    text-decoration: none;
+    color:  black;
+    font-size: 20px;
+}
